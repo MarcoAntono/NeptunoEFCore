@@ -8,9 +8,11 @@ genera la bd en SQL Server
 Update-Database 
 
 //mapea las tablas creadas de SQL Server a modelos c#
+
 Scaffold-DbContext "Data Source=DESKTOP-QSUD1UP;Initial Catalog=neptuno;User ID=sa;Password=123;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
 //fuerza el mapeo las tablas creadas a modelos c# si es que esta ya existen
+
 Scaffold-DbContext "Data Source=DESKTOP-QSUD1UP;Initial Catalog=neptuno;User ID=sa;Password=123;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force
 
 // AddNewtonsoftJson para .NET Core 3.1
