@@ -1,10 +1,10 @@
 # NeptunoEFCore
 .NET Core -  C# - Entity Framework
 
-###### Add-Migration name
+## Add-Migration name
 realiza la migracion 
 
-###### Update-Database 
+## Update-Database 
 genera la bd en SQL Server
 
 ###### Scaffold-DbContext "Data Source=DESKTOP-QSUD1UP;Initial Catalog=neptuno;User ID=sa;Password=123;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
